@@ -50,7 +50,7 @@ export const Login=()=> {
                                     class="google me-2" alt="Google image"/><small>Sign in with Google</small></button>
                         </div>
                         <div class="row">
-                            <small>Don't have an account? <NavLink href="/signup">Sign Up</NavLink></small>
+                            <small>Don't have an account? <NavLink to="/singup">Sign Up</NavLink></small>
                         </div>
                     </div>
                 </div>

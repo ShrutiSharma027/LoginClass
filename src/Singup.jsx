@@ -46,7 +46,7 @@ export const Signup=()=> {
                                     </small></label>
                             </div>
                             <div class="forgot">
-                                <small><a href="#">Forgot password</a></small>
+                                <small><NavLink to="#">Forgot password</NavLink></small>
                                 <div>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ export const Signup=()=> {
                                     class="google me-2" alt="Google image"/><small>Sign in with Google</small></button>
                         </div>
                         <div class="row">
-                            <small>Already have an account? <a href="./login.html">Login</a></small>
+                            <small>Already have an account? <NavLink to="/login">Login</NavLink></small>
                         </div>
                     </div>
                 </div>
