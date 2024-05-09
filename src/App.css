@@ -1,59 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
-    /* font-family:  "Poppins", sans-serif; */
-    /* background: #a8dce5f6; */
-    background: url("./images/riv.jpg");
-    /* backdrop-filter: blur(10px); */
+    background: url("./images/background.jpg");
     background-repeat: no-repeat;
-    /* height: 100vh; */
+    height: 100vh;
     object-fit: cover;
-    object-position: center;
     display: flex;
     width: 100%;
     justify-content: center;
-    backdrop-filter: blur(4px);
     background-size: cover;
 
 }
 background{
     background-repeat: no-repeat;
 }
-/* .img {
-    object-fit: cover;
-    object-position: center;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    backdrop-filter: blur(10px);
-} */
-
-.image {
-    background: url("./images/log.jpg");
+.image{
+    background-image: url("./assets/images/log.jpg");
     width: -webkit-fill-available;
-    /* height: -webkit-fill-available; */
-    height: 65vh;
+    /* width: 100px; */
     display: flex;
-    width: 52vh;
     background-repeat: no-repeat;
-    margin-right: 0;
     margin-left: 0;
-    padding-left: 1px;
-    object-fit: cover;
+    margin-right: 0;
     border-radius: 10px;
+    background-size: cover;
+    object-fit: cover;
+    /* height: 70vh; */
 }
-
 .padding {
     padding-left: 0;
 }
 
 .box-area {
-    width: 800px;
-    height: 600px;
+    width: 1000px;
+    height: auto;
 }
 
 .margin {
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 100px;
     padding-bottom: 0px;
 }
@@ -63,5 +47,8 @@ background{
 }
 
 .google {
+    background-image: url('./assets/images/google.png');
     width: 25px;
+    background-size: cover;
+    object-fit: cover;
 }
