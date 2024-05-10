@@ -54,3 +54,6 @@ background{
     background-size: cover;
     object-fit: cover;
 }
+.input-box{
+    width: 100%;
+}

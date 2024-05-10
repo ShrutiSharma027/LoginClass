@@ -9,7 +9,7 @@ export const Signup = () => {
             {/* <!---------------------- Main Container -------------------------> */}
             <div className="container-fluid margin d-flex justify-content-center align-items-center ">
                 {/* <!---------------------- Login Container ------------------------> */}
-                <div className="row d-flex justify-content-center shadow align-items-center bg-white box-area mt-0">
+                <div className="row d-flex justify-content-center shadow align-items-center bg-white round box-area mt-0">
                     {/* <!---------------------- Left Box -------------------------------> */}
                     <div className="col-md-6 col-md-6 col-sm-4 ">
                         <div className="image">
@@ -17,7 +17,7 @@ export const Signup = () => {
                         </div>
                     </div>
                     {/* <!---------------------- Right Box -------------------------------> */}
-                    <div className="col-md-6 d-flex justify-content-center align-items-center bg-white right-box">
+                    <div className="col-md-6 ">
                         <div className="row align-items-center">
                             <div className="header text mb-4 ">
                                 <h4 className="d-flex justify-content-center align-items-center mt-4">Sign Up</h4>
@@ -42,7 +42,7 @@ export const Signup = () => {
                             <div className="input-group mb-4">
                                 <label>Enter Confirm Password<input type="password"
                                     className="form-control form-control-lg bg-light round required"
-                                    placeholder="Password" /></label>
+                                    placeholder="Confirm Password" /></label>
                             </div>
                             <div className="input-group mb-5 d-flex justify-content-between">
                                 <div className="form-check">
