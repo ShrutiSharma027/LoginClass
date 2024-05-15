@@ -15,8 +15,8 @@ background{
     background-repeat: no-repeat;
 }
 .image{
-    /* background-image: url("./assets/images/log.jpg"); */
-    width: -webkit-fill-available;
+    background-image: url("./assets/images/log.jpg");
+
     /* width: 100px; */
     display: flex;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ background{
     border-radius: 10px;
     background-size: cover;
     object-fit: cover;
-    height: auto !important;
+    height: 100vh;
 }
 .padding {
     padding-left: 0;
