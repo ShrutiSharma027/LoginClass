@@ -9,11 +9,11 @@ export const Signup = () => {
             {/* <!---------------------- Main Container -------------------------> */}
             <div className="container-fluid h-100  ">
                 {/* <!---------------------- Login Container ------------------------> */}
-                <div className="row center h-100 mt-5 d-flex justify-content-center align-items-center">
+                <div className="row center h-100  d-flex justify-content-center align-items-center">
                     {/* <!---------------------- Left Box -------------------------------> */}
                     <div className="col-md-9 bg-white round">
                         <div className="row">
-                            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-none d-sm-block">
                                 <div className="image" alt="Side image">
                                     {/* <img src={log} className="image" alt="Login Image" /> */}
                                 </div>
@@ -26,27 +26,31 @@ export const Signup = () => {
                                         <h4 className="center">Register here to sign up on our
                                             website</h4>
                                     </div>
-                                    <div className="mb-4">
-                                        <label>Enter Your Name<input type="email"
-                                            className="form-control form-control-lg bg-light round required"
-                                            placeholder="Username" /></label>
+                                    <div className="mb-3">
+                                        <label>Enter Your Name
+                                            <input type="email"
+                                                className="form-control form-control-lg bg-light round required"
+                                                placeholder="Username" size={35} />
+                                        </label>
                                     </div>
-                                    <div className="mb-4">
-                                        <label>Enter Your Email<input type="password"
-                                            className="form-control form-control-lg bg-light round required"
-                                            placeholder="Email" /></label>
+                                    <div className="mb-3">
+                                        <label>Enter Your Email
+                                            <input type="password"
+                                                className="form-control form-control-lg bg-light round required"
+                                                placeholder="Email" size={35}/>
+                                        </label>
                                     </div>
-                                    <div className="mb-4">
+                                    <div className="mb-3">
                                         <label>Enter Password<input type="password"
                                             className="form-control form-control-lg bg-light round required"
-                                            placeholder="Password" /></label>
+                                            placeholder="Password" size={35}/></label>
                                     </div>
-                                    <div className="mb-4">
+                                    <div className="mb-3">
                                         <label>Enter Confirm Password<input type="password"
                                             className="form-control form-control-lg bg-light round required"
-                                            placeholder="Confirm Password" /></label>
+                                            placeholder="Confirm Password" size={35}/></label>
                                     </div>
-                                    <div className="mb-5 d-flex justify-content-center">
+                                    <div className="mb-3 d-flex justify-content-between">
                                         <div className="form-check">
                                             <input type="checkbox" className="form-check-input" id="formCheck" />
                                             <label htmlFor="formCheck" className="form-check-label text"><small> Remember me</small>
@@ -56,10 +60,10 @@ export const Signup = () => {
                                             <small><NavLink href="#">Forgot password</NavLink></small>
                                         </div>
                                     </div>
-                                    <div className="col-md-12 center mb-3">
-                                        <button className="btn btn-lg btn-primary w-50 fs-10">Sign Up</button>
+                                    <div className="col-md-12 center mb-2">
+                                        <button className="btn btn-lg btn-success w-50 fs-10">Sign Up</button>
                                     </div>
-                                    <div className="mb-3">
+                                    <div className="mb-2">
                                         <button className="btn btn-lg btn-light w-100 fs-10 "><img src={google}
                                             className="google" alt="Google image" /><small>Sign in with Google</small></button>
                                     </div>

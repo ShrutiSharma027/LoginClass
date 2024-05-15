@@ -26,7 +26,7 @@ export const Login = () => {
             {/* <!---------------------- Main Container -------------------------> */}
             <div className="container-fluid h-100">
                 {/* <!---------------------- Login Container ------------------------> */}
-                <div className="row shadow d-flex justify-content-center align-items-center h-100">
+                <div className="row shadow center h-100">
                     {/* <!---------------------- Left Box -------------------------------> */}
 
                     <div className="col-md-9 bg-white round">
@@ -56,7 +56,7 @@ export const Login = () => {
                             />
                              <button type="submit">Login</button>
                         </form> */}
-                                <div className="row d-flex ">
+                                <div className="row center">
                                     <div className="header text mb-4 ">
                                         <h4 className="center mt-4">Login</h4>
                                         <h4 className="center">We are happy to have you back.
@@ -66,17 +66,17 @@ export const Login = () => {
                                         <label>Enter Email
                                             <input type="email"
                                                 className="form-control form-control-lg bg-light round required"
-                                                placeholder="Email" />
+                                                placeholder="Email" size={35}/>
                                         </label>
                                     </div>
                                     <div className="mb-4">
                                         <label>Enter Password
                                             <input type="password"
                                                 className="form-control form-control-lg bg-light round required"
-                                                placeholder="Password" />
+                                                placeholder="Password" size={35}/>
                                         </label>
                                     </div>
-                                    <div className="mb-5 d-flex justify-content-center">
+                                    <div className="mb-5 d-flex justify-content-between">
                                         <div className="form-check">
                                             <input type="checkbox" className="form-check-input" id="formCheck" />
                                             <label htmlFor="formCheck" className="form-check-label text">
@@ -90,7 +90,7 @@ export const Login = () => {
                                         </div>
                                     </div>
                                     <div className="col-md-12 center mb-3">
-                                        <button className="btn btn-lg btn-primary w-50 fs-10">Login</button>
+                                        <button className="btn btn-lg btn-success w-50 fs-10">Login</button>
                                     </div>
                                     <div className="mb-3">
                                         <button className="btn btn-lg btn-light w-100 fs-10 ">
