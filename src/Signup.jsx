@@ -53,7 +53,7 @@ export const Signup = () => {
                                                     onChange={handleChange}
                                                     onBlur={handleBlur}
                                                     className="form-control form-control-lg bg-light round required"
-                                                    placeholder="Username" size={35} />
+                                                    placeholder="Username" size={40} />
                                             </label>
                                             <label className="text-danger">{errors.name && <p>{errors.name}</p>}</label>
                                         </div>
@@ -67,7 +67,7 @@ export const Signup = () => {
                                                     onChange={handleChange}
                                                     onBlur={handleBlur}
                                                     className="form-control form-control-lg bg-light round required"
-                                                    placeholder="Email" size={35} />
+                                                    placeholder="Email" size={40} />
                                             </label>
                                             <label className="text-danger">{errors.email && <p>{errors.email}</p>}</label>
                                         </div>
@@ -81,7 +81,7 @@ export const Signup = () => {
                                                     onChange={handleChange}
                                                     onBlur={handleBlur}
                                                     className="form-control form-control-lg bg-light round required"
-                                                    placeholder="Password" size={35} />
+                                                    placeholder="Password" size={40} />
                                             </label>
                                             <label className="text-danger">{errors.password && <p>{errors.password}</p>}</label>
                                         </div>
@@ -95,7 +95,7 @@ export const Signup = () => {
                                                     onChange={handleChange}
                                                     onBlur={handleBlur}
                                                     className="form-control form-control-lg bg-light round required"
-                                                    placeholder="Confirm Password" size={35} />
+                                                    placeholder="Confirm Password" size={40} />
                                             </label>
                                             <label className="text-danger">{errors.cpassword && <p>{errors.cpassword}</p>}</label>
                                         </div>

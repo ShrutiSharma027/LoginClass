@@ -26,7 +26,7 @@ const initialValues = {
             {/* <!---------------------- Main Container -------------------------> */}
             <div className="container-fluid h-100">
                 {/* <!---------------------- Login Container ------------------------> */}
-                <div className="row shadow center h-100">
+                <div className="row shadow center h-100 ">
                     {/* <!---------------------- Left Box -------------------------------> */}
 
                     <div className="col-md-9 bg-white round">
@@ -54,7 +54,7 @@ const initialValues = {
                                                     onChange={handleChange}
                                                     onBlur={handleBlur}
                                                     className="form-control form-control-lg bg-light round required"
-                                                    placeholder="Email" size={35} />
+                                                    placeholder="Email" size={40} />
                                             </label>
                                             <label className="text-danger">{errors.email && <p>{errors.email}</p>}</label>
                                         </div>
@@ -68,7 +68,7 @@ const initialValues = {
                                                     onChange={handleChange}
                                                     onBlur={handleBlur}
                                                     className="form-control form-control-lg bg-light round required"
-                                                    placeholder="Password" size={35} />
+                                                    placeholder="Password" size={40} />
                                             </label>
                                             <label className="text-danger">{errors.password && <p>{errors.password}</p>}</label>
                                         </div>
