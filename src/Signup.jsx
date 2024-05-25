@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import { Login } from "./Login";
-import log from "./assets/images/log.jpg"
 import google from "./assets/images/google.png"
 import { useFormik } from "formik";
 import { signupschema } from "./assets/Schema";
@@ -31,7 +30,6 @@ export const Signup = () => {
                         <div className="row">
                             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-none d-sm-block">
                                 <div className="image" alt="Side image">
-                                    {/* <img src={log} className="image" alt="Login Image" /> */}
                                 </div>
                             </div>
                             {/* <!---------------------- Right Box -------------------------------> */}

@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import { Signup } from "./Signup";
-import log from "./assets/images/log.jpg"
 import google from "./assets/images/google.png"
 import { useFormik } from "formik";
 import * as Yup from "yup";
